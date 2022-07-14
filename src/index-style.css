@@ -119,18 +119,33 @@ h4 {
     font-size: 30px;
   }
   .hi {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
   }
   h1 {
     font-size: 40px;
   }
   h4 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .code,
   .ua {
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
+  }
+  .contact,
+  .about {
+    font-size: 20px;
+  }
+
+  .name-app {
+    font-size: 25px;
+  }
+  .launch-app {
+    font-size: 15px;
+  }
+
+  .container p {
+    font-size: 17px;
   }
 }

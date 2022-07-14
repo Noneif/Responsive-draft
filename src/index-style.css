@@ -114,3 +114,23 @@ h4 {
   text-align: justify;
   color: var(--main-color);
 }
+@media (max-width: 576px) {
+  h3 {
+    font-size: 30px;
+  }
+  .hi {
+    height: 25px;
+    width: 25px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .code,
+  .ua {
+    height: 15px;
+    width: 15px;
+  }
+}

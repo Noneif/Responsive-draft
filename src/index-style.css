@@ -1,0 +1,116 @@
+:root {
+  --main-color: rgb(55, 65, 209);
+  --secondary-color: rgb(226, 99, 14);
+  --major-font: "Kdam Thmor Pro", sans-serif;
+  --secondary-font: monospace;
+}
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+  text-align: center;
+  margin: 0 0 20px;
+}
+.nav-link {
+  font-family: var(--major-font);
+  font-weight: bold;
+}
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 40px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.hi {
+  height: 35px;
+  width: 35px;
+}
+h1 {
+  font-family: var(--major-font);
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+h4 {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.code,
+.ua {
+  height: 25px;
+  width: 25px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.contact,
+.about {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  border: 2px solid rgb(55, 65, 209);
+  border-radius: 25px;
+}
+.contact {
+  color: azure;
+  background: var(--main-color);
+  margin-right: 20px;
+}
+.contact:hover {
+  transition: all 150ms ease-in-out;
+  color: var(--main-color);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+.about {
+  color: var(--main-color);
+  margin-left: 20px;
+}
+.about:hover {
+  transition: all 150ms ease-in-out;
+  color: azure;
+  background: var(--main-color);
+}
+.name-app {
+  font-family: var(--major-font);
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.launch-app {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  border: 2px solid rgb(55, 65, 209);
+  border-radius: 25px;
+  color: azure;
+  background: var(--main-color);
+}
+.launch-app:hover {
+  transition: all 150ms ease-in-out;
+  color: var(--main-color);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+.container p {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  text-indent: 40px;
+  text-align: justify;
+  color: var(--main-color);
+}

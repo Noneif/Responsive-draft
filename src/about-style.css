@@ -1,0 +1,73 @@
+:root {
+  --main-color: rgb(55, 65, 209);
+  --secondary-color: rgb(226, 99, 14);
+  --major-font: "Kdam Thmor Pro", sans-serif;
+  --secondary-font: monospace;
+}
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+  text-align: center;
+  margin: 0 0 20px;
+}
+.nav-link {
+  font-family: var(--major-font);
+  font-weight: bold;
+}
+h1 {
+  font-family: var(--major-font);
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--main-color);
+  margin-bottom: 5px;
+}
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-top: 0;
+}
+.text-about {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20px;
+}
+.block {
+  flex: 1;
+  padding: 20px 30px;
+  margin: 0 10px;
+  text-align: justify;
+  text-indent: 40px;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  color: var(--main-color);
+}
+p {
+  margin: 0 0 10px;
+  padding: 0;
+}
+.postbox {
+  height: 30px;
+  width: 30px;
+}
+.contact {
+  font-family: var(--major-font);
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin: 48px 0 10px;
+}
+.email {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: var(--main-color);
+}
+.email:hover {
+  color: var(--secondary-color);
+}

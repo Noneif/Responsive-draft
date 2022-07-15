@@ -107,7 +107,7 @@ h4 {
     rgb(234, 241, 249) 90.1%
   );
 }
-.container p {
+p {
   font-family: var(--secondary-font);
   font-size: 20px;
   text-indent: 40px;
@@ -144,9 +144,8 @@ h4 {
   .launch-app {
     font-size: 15px;
   }
-  .container p {
-    font-size: 17px;
-    margin-left: 10px;
-    margin-right: 10px;
+  p {
+    font-size: 18px;
+    text-indent: 30px;
   }
 }

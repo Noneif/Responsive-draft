@@ -38,8 +38,6 @@ h3 {
 }
 .block {
   flex: 1;
-  padding: 20px 30px;
-  margin: 0 10px;
   text-align: justify;
   text-indent: 40px;
   font-family: var(--secondary-font);
@@ -47,8 +45,8 @@ h3 {
   color: var(--main-color);
 }
 p {
-  margin: 0 0 10px;
-  padding: 0;
+  margin: 0 8px 10px;
+  padding: 0 12px;
 }
 .postbox {
   height: 30px;
@@ -70,4 +68,31 @@ p {
 }
 .email:hover {
   color: var(--secondary-color);
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .text-about {
+    margin: 0 10px;
+  }
+  .block {
+    text-indent: 30px;
+  }
+  p {
+    margin: 0 4px 10px;
+  }
+  .postbox {
+    height: 25px;
+    width: 25px;
+  }
+  .contact {
+    font-size: 20px;
+  }
+  .email {
+    font-size: 20px;
+  }
 }

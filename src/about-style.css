@@ -1,6 +1,6 @@
 :root {
   --main-color: rgb(55, 65, 209);
-  --secondary-color: rgb(226, 99, 14);
+  --secondary-color: rgba(147, 55, 209, 0.712);
   --major-font: "Kdam Thmor Pro", sans-serif;
   --secondary-font: monospace;
 }
@@ -13,6 +13,7 @@ body {
   text-align: center;
   margin: 0 0 20px;
 }
+.navbar-brand,
 .nav-link {
   font-family: var(--major-font);
   font-weight: bold;

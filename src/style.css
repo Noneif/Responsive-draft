@@ -16,11 +16,17 @@ body {
   font-weight: bold;
 }
 .head-container {
-  margin: 170px 30px;
+  margin: 200px 30px;
 }
 h3 {
   font-family: var(--secondary-font);
   font-size: 30px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+h4 {
+  font-family: var(--major-font);
+  font-size: 25px;
   color: var(--secondary-color);
   font-weight: bold;
 }
@@ -76,12 +82,24 @@ h1 {
 p {
   font-family: var(--secondary-font);
   font-size: 20px;
-  text-indent: 40px;
   text-align: justify;
   color: var(--main-color);
 }
 .main-content {
-  margin: 100px 0;
+  margin: 100px 20px;
+}
+.main-content-contact {
+  margin: 100px 20px 50px;
+}
+.email {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: var(--main-color);
+}
+.email:hover {
+  color: var(--secondary-color);
 }
 @media (max-width: 576px) {
   .head-container {
@@ -105,9 +123,8 @@ p {
   }
   p {
     font-size: 18px;
-    text-indent: 30px;
   }
   .main-content {
-    margin: 50px 0;
+    margin: 50px 10px;
   }
 }

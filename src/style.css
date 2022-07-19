@@ -1,7 +1,6 @@
 :root {
   --main-color: rgb(245, 245, 245);
-  --secondary-color: rgba(240, 240, 240, 0.712);
-  --third-color: rgb(74, 74, 75);
+  --secondary-color: rgb(74, 74, 75);
   --major-font: "Kdam Thmor Pro", sans-serif;
   --secondary-font: monospace;
 }
@@ -27,7 +26,7 @@ h3 {
 h4 {
   font-family: var(--major-font);
   font-size: 25px;
-  color: var(--third-color);
+  color: var(--secondary-color);
   font-weight: bold;
 }
 h1 {
@@ -46,14 +45,14 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
-  border: 2px solid var(--third-color);
+  border: 2px solid var(--secondary-color);
   border-radius: 25px;
   color: var(--main-color);
-  background: var(--third-color);
+  background: var(--secondary-color);
 }
 .contact:hover {
   transition: all 150ms ease-in-out;
-  color: var(--third-color);
+  color: var(--secondary-color);
   background: var(--main-color);
 }
 .name-app {
@@ -68,15 +67,15 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
-  border: 2px solid var(--third-color);
+  border: 2px solid var(--secondary-color);
   border-radius: 25px;
   color: var(--main-color);
-  background: var(--third-color);
+  background: var(--secondary-color);
   margin: 20px 20px;
 }
 .launch-app:hover {
   transition: all 150ms ease-in-out;
-  color: var(--third-color);
+  color: var(--secondary-color);
   background: var(--main-color);
 }
 p {

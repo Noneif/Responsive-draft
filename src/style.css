@@ -90,14 +90,14 @@ p {
 .main-content-contact {
   margin: 100px 20px 50px;
 }
-.email {
+.social-links {
   font-family: var(--secondary-font);
   font-size: 25px;
   font-weight: bolder;
   text-decoration: none;
   color: var(--main-color);
 }
-.email:hover {
+.social-links:hover {
   color: var(--secondary-color);
 }
 @media (max-width: 576px) {

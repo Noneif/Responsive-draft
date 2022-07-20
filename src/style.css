@@ -107,8 +107,14 @@ p {
   color: var(--secondary-color);
 }
 @media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .nav-link {
+    font-size: 17px;
+  }
   .head-container {
-    margin: 50px 10px;
+    margin: 100px 10px 50px;
   }
   h3 {
     font-size: 30px;

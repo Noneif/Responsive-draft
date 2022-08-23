@@ -93,11 +93,21 @@ h1 {
   color: var(--secondary-color);
   background: var(--main-color);
 }
-p {
+p,
+.tech-stack {
   font-family: var(--secondary-font);
   font-size: 20px;
-  text-align: justify;
   color: var(--main-color);
+  text-align: justify;
+}
+.title-tech-stack {
+  font-weight: 900;
+  color: var(--secondary-color);
+  font-family: var(--major-font);
+  font-size: 20px;
+}
+.tech-stack {
+  font-weight: 900;
 }
 .social-links {
   font-family: var(--secondary-font);
@@ -109,6 +119,16 @@ p {
 }
 .social-links:hover {
   color: var(--secondary-color);
+}
+.workshop {
+  text-decoration: none;
+  font-family: var(--major-font);
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--secondary-color);
+}
+.workshop:hover {
+  color: var(--main-color);
 }
 footer {
   margin: 100px 150px 30px;
@@ -162,7 +182,13 @@ footer {
     font-size: 15px;
     margin: 10px 20px 20px;
   }
-  p {
+  p,
+  .title-tech-stack,
+  .tech-stack,
+  .workshop {
+    font-size: 18px;
+  }
+  .tech-stack {
     font-size: 18px;
   }
   footer {

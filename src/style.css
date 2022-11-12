@@ -27,7 +27,7 @@ body {
   margin: 120px 10px 50px;
 }
 .main-content-contact {
-  margin: 120px 20px 50px;
+  margin: 120px 20px 120px;
 }
 h3 {
   font-family: var(--secondary-font);
@@ -161,7 +161,7 @@ footer {
     margin: 110px 10px 30px;
   }
   .main-content-contact {
-    margin: 110px 20px 40px;
+    margin: 110px 20px 110px;
   }
   h3 {
     font-size: 30px;

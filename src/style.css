@@ -29,6 +29,11 @@ body {
 .main-content-contact {
   margin: 120px 20px 120px;
 }
+.about-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 h3 {
   font-family: var(--secondary-font);
   font-size: 30px;

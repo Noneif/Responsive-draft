@@ -124,6 +124,8 @@ p,
 }
 .social-links:hover {
   color: var(--secondary-color);
+  transform-origin: center;
+  transform: scale(0.5);
 }
 .workshop {
   text-decoration: none;
